@@ -1,0 +1,75 @@
+# ── Project-specific ────────────────────────────────────────────────────────
+MAD_TODO/
+.claude/
+
+# Firebase config files contain project credentials — never commit them.
+# Regenerate locally with `flutterfire configure`.
+google-services.json
+GoogleService-Info.plist
+firebase.json
+
+# ── Flutter / Dart ───────────────────────────────────────────────────────────
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+# pubspec.lock is intentionally committed for apps (reproducible builds).
+# Only library packages omit it.
+
+# build_runner generated files
+*.g.dart
+*.freezed.dart
+*.gr.dart
+
+# ── IDE ──────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# ── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Android ──────────────────────────────────────────────────────────────────
+.gradle/
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.jks
+*.keystore
+
+# ── iOS ───────────────────────────────────────────────────────────────────────
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+
+# ── Python tooling ────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+
+# ── Secrets / env ────────────────────────────────────────────────────────────
+.env
+.env.*
+secrets.dart
+
+# ── Coverage ─────────────────────────────────────────────────────────────────
+coverage/
